@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2C22764294A613300955881 /* IrisClassificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22763294A613300955881 /* IrisClassificationApp.swift */; };
+		B2C22766294A613300955881 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22765294A613300955881 /* ContentView.swift */; };
+		B2C22768294A613500955881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C22767294A613500955881 /* Assets.xcassets */; };
+		B2C2276B294A613500955881 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C2276A294A613500955881 /* Preview Assets.xcassets */; };
+		B2C2276D294A613500955881 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2276C294A613500955881 /* Persistence.swift */; };
+		B2C22770294A613500955881 /* IrisClassification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C2276E294A613500955881 /* IrisClassification.xcdatamodeld */; };
+		B2C2277A294A613500955881 /* IrisClassificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22779294A613500955881 /* IrisClassificationTests.swift */; };
+		B2C22784294A613500955881 /* IrisClassificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22783294A613500955881 /* IrisClassificationUITests.swift */; };
+		B2C22786294A613500955881 /* IrisClassificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22785294A613500955881 /* IrisClassificationUITestsLaunchTests.swift */; };
+		B2C22797294A654900955881 /* IrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22796294A654900955881 /* IrisView.swift */; };
+		B2C22799294A7E9600955881 /* IrisClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B2C22798294A7E9600955881 /* IrisClassifier.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C22776294A613500955881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C22758294A613300955881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C2275F294A613300955881;
+			remoteInfo = IrisClassification;
+		};
+		B2C22780294A613500955881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C22758294A613300955881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C2275F294A613300955881;
+			remoteInfo = IrisClassification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2C22760294A613300955881 /* IrisClassification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrisClassification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C22763294A613300955881 /* IrisClassificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisClassificationApp.swift; sourceTree = "<group>"; };
+		B2C22765294A613300955881 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2C22767294A613500955881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C2276A294A613500955881 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2C2276C294A613500955881 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B2C2276F294A613500955881 /* IrisClassification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IrisClassification.xcdatamodel; sourceTree = "<group>"; };
+		B2C22775294A613500955881 /* IrisClassificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisClassificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C22779294A613500955881 /* IrisClassificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisClassificationTests.swift; sourceTree = "<group>"; };
+		B2C2277F294A613500955881 /* IrisClassificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrisClassificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C22783294A613500955881 /* IrisClassificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisClassificationUITests.swift; sourceTree = "<group>"; };
+		B2C22785294A613500955881 /* IrisClassificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisClassificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2C22796294A654900955881 /* IrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrisView.swift; sourceTree = "<group>"; };
+		B2C22798294A7E9600955881 /* IrisClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = IrisClassifier.mlpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C2275D294A613300955881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C22772294A613500955881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C2277C294A613500955881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2C22757294A613300955881 = {
+			isa = PBXGroup;
+			children = (
+				B2C22762294A613300955881 /* IrisClassification */,
+				B2C22778294A613500955881 /* IrisClassificationTests */,
+				B2C22782294A613500955881 /* IrisClassificationUITests */,
+				B2C22761294A613300955881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C22761294A613300955881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C22760294A613300955881 /* IrisClassification.app */,
+				B2C22775294A613500955881 /* IrisClassificationTests.xctest */,
+				B2C2277F294A613500955881 /* IrisClassificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C22762294A613300955881 /* IrisClassification */ = {
+			isa = PBXGroup;
+			children = (
+				B2C22763294A613300955881 /* IrisClassificationApp.swift */,
+				B2C22794294A648500955881 /* CoreML */,
+				B2C22765294A613300955881 /* ContentView.swift */,
+				B2C22796294A654900955881 /* IrisView.swift */,
+				B2C22767294A613500955881 /* Assets.xcassets */,
+				B2C22795294A64FB00955881 /* CoreData */,
+				B2C2276E294A613500955881 /* IrisClassification.xcdatamodeld */,
+				B2C22769294A613500955881 /* Preview Content */,
+			);
+			path = IrisClassification;
+			sourceTree = "<group>";
+		};
+		B2C22769294A613500955881 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2C2276A294A613500955881 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2C22778294A613500955881 /* IrisClassificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C22779294A613500955881 /* IrisClassificationTests.swift */,
+			);
+			path = IrisClassificationTests;
+			sourceTree = "<group>";
+		};
+		B2C22782294A613500955881 /* IrisClassificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C22783294A613500955881 /* IrisClassificationUITests.swift */,
+				B2C22785294A613500955881 /* IrisClassificationUITestsLaunchTests.swift */,
+			);
+			path = IrisClassificationUITests;
+			sourceTree = "<group>";
+		};
+		B2C22794294A648500955881 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				B2C22798294A7E9600955881 /* IrisClassifier.mlpackage */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		B2C22795294A64FB00955881 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B2C2276C294A613500955881 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C2275F294A613300955881 /* IrisClassification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C22789294A613500955881 /* Build configuration list for PBXNativeTarget "IrisClassification" */;
+			buildPhases = (
+				B2C2275C294A613300955881 /* Sources */,
+				B2C2275D294A613300955881 /* Frameworks */,
+				B2C2275E294A613300955881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrisClassification;
+			productName = IrisClassification;
+			productReference = B2C22760294A613300955881 /* IrisClassification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2C22774294A613500955881 /* IrisClassificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C2278C294A613500955881 /* Build configuration list for PBXNativeTarget "IrisClassificationTests" */;
+			buildPhases = (
+				B2C22771294A613500955881 /* Sources */,
+				B2C22772294A613500955881 /* Frameworks */,
+				B2C22773294A613500955881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C22777294A613500955881 /* PBXTargetDependency */,
+			);
+			name = IrisClassificationTests;
+			productName = IrisClassificationTests;
+			productReference = B2C22775294A613500955881 /* IrisClassificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2C2277E294A613500955881 /* IrisClassificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C2278F294A613500955881 /* Build configuration list for PBXNativeTarget "IrisClassificationUITests" */;
+			buildPhases = (
+				B2C2277B294A613500955881 /* Sources */,
+				B2C2277C294A613500955881 /* Frameworks */,
+				B2C2277D294A613500955881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C22781294A613500955881 /* PBXTargetDependency */,
+			);
+			name = IrisClassificationUITests;
+			productName = IrisClassificationUITests;
+			productReference = B2C2277F294A613500955881 /* IrisClassificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C22758294A613300955881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B2C2275F294A613300955881 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B2C22774294A613500955881 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B2C2275F294A613300955881;
+					};
+					B2C2277E294A613500955881 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B2C2275F294A613300955881;
+					};
+				};
+			};
+			buildConfigurationList = B2C2275B294A613300955881 /* Build configuration list for PBXProject "IrisClassification" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C22757294A613300955881;
+			productRefGroup = B2C22761294A613300955881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C2275F294A613300955881 /* IrisClassification */,
+				B2C22774294A613500955881 /* IrisClassificationTests */,
+				B2C2277E294A613500955881 /* IrisClassificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C2275E294A613300955881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C2276B294A613500955881 /* Preview Assets.xcassets in Resources */,
+				B2C22768294A613500955881 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C22773294A613500955881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C2277D294A613500955881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C2275C294A613300955881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C22797294A654900955881 /* IrisView.swift in Sources */,
+				B2C2276D294A613500955881 /* Persistence.swift in Sources */,
+				B2C22766294A613300955881 /* ContentView.swift in Sources */,
+				B2C22770294A613500955881 /* IrisClassification.xcdatamodeld in Sources */,
+				B2C22799294A7E9600955881 /* IrisClassifier.mlpackage in Sources */,
+				B2C22764294A613300955881 /* IrisClassificationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C22771294A613500955881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C2277A294A613500955881 /* IrisClassificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C2277B294A613500955881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C22784294A613500955881 /* IrisClassificationUITests.swift in Sources */,
+				B2C22786294A613500955881 /* IrisClassificationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C22777294A613500955881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C2275F294A613300955881 /* IrisClassification */;
+			targetProxy = B2C22776294A613500955881 /* PBXContainerItemProxy */;
+		};
+		B2C22781294A613500955881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C2275F294A613300955881 /* IrisClassification */;
+			targetProxy = B2C22780294A613500955881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B2C22787294A613500955881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C22788294A613500955881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C2278A294A613500955881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IrisClassification/Preview Content\"";
+				DEVELOPMENT_TEAM = 96YBV2A8J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.rmr53.IrisClassification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C2278B294A613500955881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IrisClassification/Preview Content\"";
+				DEVELOPMENT_TEAM = 96YBV2A8J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.rmr53.IrisClassification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2C2278D294A613500955881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96YBV2A8J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.rmr53.IrisClassificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrisClassification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IrisClassification";
+			};
+			name = Debug;
+		};
+		B2C2278E294A613500955881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96YBV2A8J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.rmr53.IrisClassificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IrisClassification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IrisClassification";
+			};
+			name = Release;
+		};
+		B2C22790294A613500955881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96YBV2A8J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.rmr53.IrisClassificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrisClassification;
+			};
+			name = Debug;
+		};
+		B2C22791294A613500955881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96YBV2A8J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.duke.rmr53.IrisClassificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IrisClassification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C2275B294A613300955881 /* Build configuration list for PBXProject "IrisClassification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C22787294A613500955881 /* Debug */,
+				B2C22788294A613500955881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C22789294A613500955881 /* Build configuration list for PBXNativeTarget "IrisClassification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C2278A294A613500955881 /* Debug */,
+				B2C2278B294A613500955881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C2278C294A613500955881 /* Build configuration list for PBXNativeTarget "IrisClassificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C2278D294A613500955881 /* Debug */,
+				B2C2278E294A613500955881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C2278F294A613500955881 /* Build configuration list for PBXNativeTarget "IrisClassificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C22790294A613500955881 /* Debug */,
+				B2C22791294A613500955881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2C2276E294A613500955881 /* IrisClassification.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2C2276F294A613500955881 /* IrisClassification.xcdatamodel */,
+			);
+			currentVersion = B2C2276F294A613500955881 /* IrisClassification.xcdatamodel */;
+			path = IrisClassification.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2C22758294A613300955881 /* Project object */;
+}

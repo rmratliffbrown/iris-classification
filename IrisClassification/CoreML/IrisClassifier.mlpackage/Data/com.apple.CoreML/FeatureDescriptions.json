@@ -1,0 +1,27 @@
+{
+  "Outputs" : {
+    "class" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "classProbability" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Inputs" : {
+    "sepal_length" : {
+      "MLFeatureShortDescription" : "sepal length in cm "
+    },
+    "sepal_width" : {
+      "MLFeatureShortDescription" : "sepal width in cm "
+    },
+    "pedal_length" : {
+      "MLFeatureShortDescription" : "pedal length in cm "
+    },
+    "pedal_width" : {
+      "MLFeatureShortDescription" : "sepal width in cm "
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}

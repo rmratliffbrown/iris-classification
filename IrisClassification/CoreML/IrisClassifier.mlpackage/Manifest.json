@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "7F047F88-7A56-4B8F-995A-9C68ADFD0D47": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "DB405B2E-6914-46FF-ACB1-DAE0C798BBC6": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "FA113FB9-3FC3-4699-9028-65CF19359F68": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "IrisClassifier.mlmodel",
+            "path": "com.apple.CoreML/IrisClassifier.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "FA113FB9-3FC3-4699-9028-65CF19359F68"
+}

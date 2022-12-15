@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22A5331f" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Prediction" representedClassName="Prediction" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="pedal_length" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pedal_width" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sepal_length" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sepal_width" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+</model>
