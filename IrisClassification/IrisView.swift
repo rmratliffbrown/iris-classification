@@ -21,24 +21,26 @@ struct IrisView: View {
     
     var body: some View {
         NavigationView{
-           
-                
-
+            
+            
+            
             VStack{
                 
-                //if togglePrediction {
-                    Image("setosa")
-                        .resizable()
-                        .scaledToFit()
-                        .aspectRatio(2, contentMode: .fill)
-                        .cornerRadius(25)
-                        .shadow(radius: 10)
-                        .padding()
-                //}
+                if !togglePrediction {
+                    ZStack {
+                        Image("setosa")
+                            .resizable()
+                            .scaledToFit()
+                            .aspectRatio(2, contentMode: .fill)
+                            .cornerRadius(25)
+                            .shadow(radius: 10)
+                            .padding()
+                    }
+                }
                 
                 // SEPAL LENGTH
-            
-                Text("Sepal Length: \(sepal_length, specifier: "%.1f" )")
+                
+                Text("Sepal Length: \(sepal_length, specifier: "%.1f")")
                 
                 Slider(value: $sepal_length, in: 0.0...8.0).padding()
                 
@@ -64,8 +66,8 @@ struct IrisView: View {
                     classify()
                     togglePrediction.toggle()
                 }.padding()
-            
-
+                
+                
             }.navigationTitle("Iris Classification")
                 .navigationBarTitleDisplayMode(.inline)
                 .padding()
