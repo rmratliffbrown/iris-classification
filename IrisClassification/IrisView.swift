@@ -8,6 +8,78 @@
 import SwiftUI
 import CoreML
 
+
+
+struct IrisView: View {
+    @State private var sepal_length: Double = 0.0
+    @State private var sepal_width: Double = 0.0
+    @State private var pedal_length: Double  = 0.0
+    @State private var pedal_width: Double = 0.0
+    @State private var togglePrediction = false
+    
+    let predict = classify()!.class_
+    
+    var body: some View {
+        NavigationView{
+           
+                
+
+            VStack{
+                
+                //if togglePrediction {
+                    Image("setosa")
+                        .resizable()
+                        .scaledToFit()
+                        .aspectRatio(2, contentMode: .fill)
+                        .cornerRadius(25)
+                        .shadow(radius: 10)
+                        .padding()
+                //}
+                
+                // SEPAL LENGTH
+            
+                Text("Sepal Length: \(sepal_length, specifier: "%.1f" )")
+                
+                Slider(value: $sepal_length, in: 0.0...8.0).padding()
+                
+                // SEPAL WIDTH
+                
+                Text("Sepal Width: \(sepal_width, specifier: "%.1f")")
+                
+                Slider(value: $sepal_width, in: 0.0...8.0).padding()
+                
+                // PEDAL LENGTH
+                
+                Text("Pedal Length: \(pedal_length, specifier: "%.1f")")
+                
+                Slider(value: $pedal_length, in: 0.0...8.0).padding()
+                
+                // PEDAL WIDTH
+                
+                Text("Pedal Width: \(pedal_width, specifier: "%.1f")")
+                
+                Slider(value: $pedal_width, in: 0.0...8.0).padding()
+                
+                Button("Predict") {
+                    classify()
+                    togglePrediction.toggle()
+                }.padding()
+            
+
+            }.navigationTitle("Iris Classification")
+                .navigationBarTitleDisplayMode(.inline)
+                .padding()
+            
+        }
+    }
+}
+
+struct IrisView_Previews: PreviewProvider {
+    static var previews: some View {
+        IrisView()
+    }
+}
+
 func classify() -> IrisClassifierOutput? {
     
     do {
@@ -25,64 +97,4 @@ func classify() -> IrisClassifierOutput? {
     }
     
     return nil
-}
-
-struct IrisView: View {
-    @State private var sepal_length: Double = 0.0
-    @State private var sepal_width: Double = 0.0
-    @State private var pedal_length: Double  = 0.0
-    @State private var pedal_width: Double = 0.0
-    @State private var prediction = ""
-    
-    let predict = classify()!.class_
-    
-    var body: some View {
-        
-        VStack{
-            VStack{
-                Text("No Prediction")
-                
-                
-                
-            }
-            
-            Form {
-                
-                Section(header: Text("Sepal Length")){
-                    TextField("Enter a sepal length", value: $sepal_length, format: .number.precision(.significantDigits(2)))
-                        .keyboardType(.decimalPad)
-                    
-                    
-                }
-                
-                Section(header: Text("Sepal Width")){
-                    TextField("Enter a sepal width", value: $sepal_width, format: .number.precision(.significantDigits(2)))
-                        .keyboardType(.decimalPad)
-                }
-                
-                Section(header: Text("Pedal Length")){
-                    TextField("Enter a sepal width", value: $pedal_length, format: .number.precision(.significantDigits(2)))
-                        .keyboardType(.decimalPad)
-                }
-                
-                Section(header: Text("Pedal Width")){
-                    TextField("Enter a sepal width", value: $pedal_width, format: .number.precision(.significantDigits(2)))
-                        .keyboardType(.decimalPad)
-                }
-                
-            }
-            
-            
-            Button("Predict") {
-                classify()
-            }
-        }
-        
-    }
-}
-
-struct IrisView_Previews: PreviewProvider {
-    static var previews: some View {
-        IrisView()
-    }
 }
